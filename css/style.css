@@ -107,12 +107,19 @@ img {
 .logo {
     color: var(--blue-text-color);
 }
+.icon_contact {
+    fill: currentColor;
+    margin-right: 10px;
+    vertical-align: middle;
+}
 
 .link_active{
     color: var(--blue-text-color);
 }
 .contact_link {
     color: var(--text-color);
+
+
 }
 .nav_list {
     display: flex;
@@ -124,14 +131,16 @@ img {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-} 
+  } 
 .header_contact {
     margin-left: auto;
 }
 .contact_list {
     display: flex;
+    align-items: center;
     
 }
+
 
 .contact_item:not(:last-child) {
     margin-right: 50px; 
@@ -144,9 +153,21 @@ img {
     background-color: var(--header-color);
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/overlay.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .hero_title {
     margin-bottom: 30px;
+    margin-left: 237px;
+    margin-right: auto;
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -179,7 +200,19 @@ img {
     padding-bottom: 0;
 }
 
-
+.icon_features {
+    width: 70px;
+    height: 70px;
+    
+    
+}
+.icon_container {
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 25px 100px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
 .features_title {
     font-weight: 700;
     font-size: 14px;
@@ -241,7 +274,12 @@ img {
 }
 .team_item {
     background-color: var(--secondary-color);
-}
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}    
+
 .team_item:not(:last-child) {
     margin-right: 30px;
 }
@@ -256,6 +294,20 @@ img {
 .team_text {
     text-align: center;
     margin-bottom: 30px;
+}
+
+.soc_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_soc {
+    width: 20px;
+    height: 20px;
+    display: block;
+    fill: #AFB1B8;
+    padding: 12px, 12px;
+    text-align: center;
 }
 
 /* --------------------footer----------------------- */
