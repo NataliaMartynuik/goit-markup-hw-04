@@ -298,7 +298,6 @@ img {
 
 .soc_list {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .icon_soc {
