@@ -300,6 +300,9 @@ img {
     display: flex;
     justify-content: center;
 }
+.soc_item {
+    margin-left: 10px;
+}
 .icon_soc {
     width: 20px;
     height: 20px;
