@@ -154,14 +154,15 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
+    margin: 0 auto;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
     ),
     url(../img/overlay.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
 }
 .hero_title {
     margin-bottom: 30px;
@@ -203,15 +204,19 @@ img {
 .icon_features {
     width: 70px;
     height: 70px;
+   
     
     
 }
 .icon_container {
     background-color: var(--background-color);
-    text-align: center;
-    padding: 25px 100px;
+    height: 120px;
     border-radius: 4px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .features_title {
     font-weight: 700;
@@ -293,7 +298,7 @@ img {
 }
 .team_text {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .soc_list {
@@ -309,7 +314,6 @@ img {
     height: 44px;
     background-color: var(--secondary-color);
     border-radius: 50%;
-    padding: 12px 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -352,7 +356,6 @@ img {
     background-color: var(--secondary-color);
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    padding: 16px 32px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -432,7 +435,6 @@ img {
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    padding: 12px 12px;
     display: flex;
     justify-content: center;
     align-items: center;
